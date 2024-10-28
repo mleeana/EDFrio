@@ -241,6 +241,27 @@ section.localizacao {
     text-decoration: underline;
 }
 
+section.contato{
+    padding: 60px 4%;
+}
+
+.contato .flex{
+    gap: 50px;
+}
+
+.btn-contato button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--red);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+    color: var(--grey);
+}
+
 footer{
     padding: 60px 4%;
 }
@@ -252,14 +273,12 @@ footer .container{
     gap: 90px;
 }
 
-footer .line-footer p i{
-    color: var(--red);
-    font-size: 22px;
-    padding: 10px;
+.btn-contato{
+    justify-content: space-between;
 }
 
-footer .line-footer p a{
-    color: #000;
+.btn-contato a{
+    color: black;
 }
 
 /* responsivo */
